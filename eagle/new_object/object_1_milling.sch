@@ -3394,14 +3394,14 @@
 <library name="gy-521">
 <packages>
 <package name="GY-521">
-<pad name="SDA" x="-10.16" y="1.27" drill="0.8" diameter="1.778"/>
-<pad name="XDA" x="-10.16" y="-1.27" drill="0.8" diameter="1.778"/>
-<pad name="SCL" x="-10.16" y="3.81" drill="0.8" diameter="1.778"/>
-<pad name="GND" x="-10.16" y="6.35" drill="0.8" diameter="1.778"/>
-<pad name="VCC" x="-10.16" y="8.89" drill="0.8" diameter="1.778"/>
-<pad name="XCL" x="-10.16" y="-3.81" drill="0.8" diameter="1.778"/>
-<pad name="ADO" x="-10.16" y="-6.35" drill="0.8" diameter="1.778"/>
-<pad name="INT" x="-10.16" y="-8.89" drill="0.8" diameter="1.778"/>
+<pad name="SDA" x="-10.16" y="1.27" drill="1" diameter="1.778"/>
+<pad name="XDA" x="-10.16" y="-1.27" drill="1" diameter="1.778"/>
+<pad name="SCL" x="-10.16" y="3.81" drill="1" diameter="1.778"/>
+<pad name="GND" x="-10.16" y="6.35" drill="1" diameter="1.778"/>
+<pad name="VCC" x="-10.16" y="8.89" drill="1" diameter="1.778"/>
+<pad name="XCL" x="-10.16" y="-3.81" drill="1" diameter="1.778"/>
+<pad name="ADO" x="-10.16" y="-6.35" drill="1" diameter="1.778"/>
+<pad name="INT" x="-10.16" y="-8.89" drill="1" diameter="1.778"/>
 <wire x1="-11.43" y1="10.795" x2="4.445" y2="10.795" width="0.127" layer="21"/>
 <wire x1="4.445" y1="10.795" x2="4.445" y2="-10.16" width="0.127" layer="21"/>
 <wire x1="4.445" y1="-10.16" x2="-11.43" y2="-10.16" width="0.127" layer="21"/>
@@ -10972,14 +10972,14 @@ Grid 2.54 mm&lt;p&gt;
 </net>
 <net name="BTN" class="0">
 <segment>
-<pinref part="MS1" gate="G$1" pin="GPIO10"/>
-<wire x1="88.9" y1="93.98" x2="81.28" y2="93.98" width="0.1524" layer="91"/>
-<label x="81.28" y="93.98" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="JP1" gate="A" pin="3"/>
 <wire x1="15.24" y1="114.3" x2="27.94" y2="114.3" width="0.1524" layer="91"/>
 <label x="27.94" y="114.3" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MS1" gate="G$1" pin="GPIO11"/>
+<wire x1="88.9" y1="91.44" x2="81.28" y2="91.44" width="0.1524" layer="91"/>
+<label x="81.28" y="91.44" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$2" class="0">
